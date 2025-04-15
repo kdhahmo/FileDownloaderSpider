@@ -1,6 +1,6 @@
 # FileDownloaderSpider
 
-This Scrapy spider crawls the [Quebec Geological Survey EXAMINE directory](https://gq.mines.gouv.qc.ca/documents/EXAMINE/), follows specific links starting with `DP`, and downloads files from each of those pages. Files are organized into subfolders based on the link text that led to them (e.g., `DPV940`, `DPN123`).
+This Scrapy spider crawls the [Quebec Geological Survey EXAMINE directory](https://gq.mines.gouv.qc.ca/documents/EXAMINE/), follows specific links meeting a specified criteria, and downloads files from each of those pages. Files are organized into subfolders based on the link text that led to them (e.g., `DPV940`, `DPN123`).
 
 ## Features
 
